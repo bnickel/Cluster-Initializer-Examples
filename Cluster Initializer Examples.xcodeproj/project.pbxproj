@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB44DCE7199D19BD00E74D3F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB44DCE6199D19BD00E74D3F /* Cocoa.framework */; };
+		EB44DD12199D19F300E74D3F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB44DCF7199D19BD00E74D3F /* XCTest.framework */; };
+		EB44DD18199D19F300E74D3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB44DD16199D19F300E74D3F /* InfoPlist.strings */; };
+		EB44DD23199D1A5700E74D3F /* InitializerLevelCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = EB44DD21199D1A5700E74D3F /* InitializerLevelCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB44DD24199D1A5700E74D3F /* InitializerLevelCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44DD22199D1A5700E74D3F /* InitializerLevelCluster.m */; };
+		EB44DD26199D29D700E74D3F /* InitializerLevelClusterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44DD25199D29D700E74D3F /* InitializerLevelClusterTests.m */; };
+		EB44DD27199D2A8A00E74D3F /* Cluster Initializer Examples.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB44DCE3199D19BD00E74D3F /* Cluster Initializer Examples.dylib */; };
+		EB44DD2A199D3C6400E74D3F /* AllocLevelCluster.h in Headers */ = {isa = PBXBuildFile; fileRef = EB44DD28199D3C6400E74D3F /* AllocLevelCluster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB44DD2B199D3C6400E74D3F /* AllocLevelCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44DD29199D3C6400E74D3F /* AllocLevelCluster.m */; };
+		EB44DD2D199D3FF800E74D3F /* AllocLevelClusterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB44DD2C199D3FF800E74D3F /* AllocLevelClusterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB44DD1C199D19F300E74D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB44DCDB199D19BD00E74D3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB44DCE2199D19BD00E74D3F;
+			remoteInfo = "Cluster Initializer Examples";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB44DCE3199D19BD00E74D3F /* Cluster Initializer Examples.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "Cluster Initializer Examples.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44DCE6199D19BD00E74D3F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EB44DCE9199D19BD00E74D3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB44DCEA199D19BD00E74D3F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB44DCEB199D19BD00E74D3F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EB44DCEE199D19BD00E74D3F /* Cluster Initializer Examples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cluster Initializer Examples-Prefix.pch"; sourceTree = "<group>"; };
+		EB44DCF7199D19BD00E74D3F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB44DD11199D19F300E74D3F /* Cluster Initializer Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cluster Initializer Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB44DD15199D19F300E74D3F /* Cluster Initializer Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cluster Initializer Tests-Info.plist"; sourceTree = "<group>"; };
+		EB44DD17199D19F300E74D3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB44DD1B199D19F300E74D3F /* Cluster Initializer Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cluster Initializer Tests-Prefix.pch"; sourceTree = "<group>"; };
+		EB44DD21199D1A5700E74D3F /* InitializerLevelCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializerLevelCluster.h; sourceTree = "<group>"; };
+		EB44DD22199D1A5700E74D3F /* InitializerLevelCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializerLevelCluster.m; sourceTree = "<group>"; };
+		EB44DD25199D29D700E74D3F /* InitializerLevelClusterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializerLevelClusterTests.m; sourceTree = "<group>"; };
+		EB44DD28199D3C6400E74D3F /* AllocLevelCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllocLevelCluster.h; sourceTree = "<group>"; };
+		EB44DD29199D3C6400E74D3F /* AllocLevelCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllocLevelCluster.m; sourceTree = "<group>"; };
+		EB44DD2C199D3FF800E74D3F /* AllocLevelClusterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllocLevelClusterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB44DCE0199D19BD00E74D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44DCE7199D19BD00E74D3F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44DD0E199D19F300E74D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44DD27199D2A8A00E74D3F /* Cluster Initializer Examples.dylib in Frameworks */,
+				EB44DD12199D19F300E74D3F /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB44DCDA199D19BD00E74D3F = {
+			isa = PBXGroup;
+			children = (
+				EB44DCEC199D19BD00E74D3F /* Cluster Initializer Examples */,
+				EB44DD13199D19F300E74D3F /* Cluster Initializer Tests */,
+				EB44DCE5199D19BD00E74D3F /* Frameworks */,
+				EB44DCE4199D19BD00E74D3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB44DCE4199D19BD00E74D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB44DCE3199D19BD00E74D3F /* Cluster Initializer Examples.dylib */,
+				EB44DD11199D19F300E74D3F /* Cluster Initializer Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB44DCE5199D19BD00E74D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB44DCE6199D19BD00E74D3F /* Cocoa.framework */,
+				EB44DCF7199D19BD00E74D3F /* XCTest.framework */,
+				EB44DCE8199D19BD00E74D3F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB44DCE8199D19BD00E74D3F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB44DCE9199D19BD00E74D3F /* Foundation.framework */,
+				EB44DCEA199D19BD00E74D3F /* CoreData.framework */,
+				EB44DCEB199D19BD00E74D3F /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EB44DCEC199D19BD00E74D3F /* Cluster Initializer Examples */ = {
+			isa = PBXGroup;
+			children = (
+				EB44DCED199D19BD00E74D3F /* Supporting Files */,
+				EB44DD21199D1A5700E74D3F /* InitializerLevelCluster.h */,
+				EB44DD22199D1A5700E74D3F /* InitializerLevelCluster.m */,
+				EB44DD28199D3C6400E74D3F /* AllocLevelCluster.h */,
+				EB44DD29199D3C6400E74D3F /* AllocLevelCluster.m */,
+			);
+			path = "Cluster Initializer Examples";
+			sourceTree = "<group>";
+		};
+		EB44DCED199D19BD00E74D3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB44DCEE199D19BD00E74D3F /* Cluster Initializer Examples-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB44DD13199D19F300E74D3F /* Cluster Initializer Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EB44DD25199D29D700E74D3F /* InitializerLevelClusterTests.m */,
+				EB44DD2C199D3FF800E74D3F /* AllocLevelClusterTests.m */,
+				EB44DD14199D19F300E74D3F /* Supporting Files */,
+			);
+			path = "Cluster Initializer Tests";
+			sourceTree = "<group>";
+		};
+		EB44DD14199D19F300E74D3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB44DD15199D19F300E74D3F /* Cluster Initializer Tests-Info.plist */,
+				EB44DD16199D19F300E74D3F /* InfoPlist.strings */,
+				EB44DD1B199D19F300E74D3F /* Cluster Initializer Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EB44DCE1199D19BD00E74D3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44DD2A199D3C6400E74D3F /* AllocLevelCluster.h in Headers */,
+				EB44DD23199D1A5700E74D3F /* InitializerLevelCluster.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EB44DCE2199D19BD00E74D3F /* Cluster Initializer Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44DD07199D19BD00E74D3F /* Build configuration list for PBXNativeTarget "Cluster Initializer Examples" */;
+			buildPhases = (
+				EB44DCDF199D19BD00E74D3F /* Sources */,
+				EB44DCE0199D19BD00E74D3F /* Frameworks */,
+				EB44DCE1199D19BD00E74D3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cluster Initializer Examples";
+			productName = "Cluster Initializer Examples";
+			productReference = EB44DCE3199D19BD00E74D3F /* Cluster Initializer Examples.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		EB44DD10199D19F300E74D3F /* Cluster Initializer Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB44DD1E199D19F300E74D3F /* Build configuration list for PBXNativeTarget "Cluster Initializer Tests" */;
+			buildPhases = (
+				EB44DD0D199D19F300E74D3F /* Sources */,
+				EB44DD0E199D19F300E74D3F /* Frameworks */,
+				EB44DD0F199D19F300E74D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB44DD1D199D19F300E74D3F /* PBXTargetDependency */,
+			);
+			name = "Cluster Initializer Tests";
+			productName = "Cluster Initializer Tests";
+			productReference = EB44DD11199D19F300E74D3F /* Cluster Initializer Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB44DCDB199D19BD00E74D3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Brian Nickel";
+				TargetAttributes = {
+					EB44DD10199D19F300E74D3F = {
+						TestTargetID = EB44DCE2199D19BD00E74D3F;
+					};
+				};
+			};
+			buildConfigurationList = EB44DCDE199D19BD00E74D3F /* Build configuration list for PBXProject "Cluster Initializer Examples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB44DCDA199D19BD00E74D3F;
+			productRefGroup = EB44DCE4199D19BD00E74D3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB44DCE2199D19BD00E74D3F /* Cluster Initializer Examples */,
+				EB44DD10199D19F300E74D3F /* Cluster Initializer Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB44DD0F199D19F300E74D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44DD18199D19F300E74D3F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB44DCDF199D19BD00E74D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44DD24199D1A5700E74D3F /* InitializerLevelCluster.m in Sources */,
+				EB44DD2B199D3C6400E74D3F /* AllocLevelCluster.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB44DD0D199D19F300E74D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB44DD26199D29D700E74D3F /* InitializerLevelClusterTests.m in Sources */,
+				EB44DD2D199D3FF800E74D3F /* AllocLevelClusterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB44DD1D199D19F300E74D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB44DCE2199D19BD00E74D3F /* Cluster Initializer Examples */;
+			targetProxy = EB44DD1C199D19F300E74D3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB44DD16199D19F300E74D3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB44DD17199D19F300E74D3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB44DD05199D19BD00E74D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB44DD06199D19BD00E74D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB44DD08199D19BD00E74D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluster Initializer Examples/Cluster Initializer Examples-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB44DD09199D19BD00E74D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluster Initializer Examples/Cluster Initializer Examples-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB44DD1F199D19F300E74D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluster Initializer Tests/Cluster Initializer Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cluster Initializer Tests/Cluster Initializer Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB44DD20199D19F300E74D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cluster Initializer Tests/Cluster Initializer Tests-Prefix.pch";
+				INFOPLIST_FILE = "Cluster Initializer Tests/Cluster Initializer Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB44DCDE199D19BD00E74D3F /* Build configuration list for PBXProject "Cluster Initializer Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44DD05199D19BD00E74D3F /* Debug */,
+				EB44DD06199D19BD00E74D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB44DD07199D19BD00E74D3F /* Build configuration list for PBXNativeTarget "Cluster Initializer Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44DD08199D19BD00E74D3F /* Debug */,
+				EB44DD09199D19BD00E74D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB44DD1E199D19F300E74D3F /* Build configuration list for PBXNativeTarget "Cluster Initializer Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB44DD1F199D19F300E74D3F /* Debug */,
+				EB44DD20199D19F300E74D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB44DCDB199D19BD00E74D3F /* Project object */;
+}
